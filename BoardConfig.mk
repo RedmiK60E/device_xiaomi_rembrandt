@@ -5,6 +5,21 @@
 
 DEVICE_PATH := device/xiaomi/rembrandt
 
+# A/B
+AB_OTA_UPDATER := true
+
+AB_OTA_PARTITIONS += \
+    system \
+    product \
+    vendor \
+    odm \
+    boot \
+    vendor_boot \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor \
+    dtbo
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
