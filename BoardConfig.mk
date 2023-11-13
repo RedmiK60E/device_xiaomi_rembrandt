@@ -53,6 +53,17 @@ BOARD_BOOTCONFIG := androidboot.selinux=permissive
 TARGET_BOOTLOADER_BOARD_NAME := rembrandt
 TARGET_NO_BOOTLOADER := true
 
+# Kernel
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/xiaomi/rembrandt
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+TARGET_KERNEL_CONFIG := \
+	gki_defconfig \
+	mikrn_rembrandt_defconfig
+
+BOARD_KERNEL_IMAGE_NAME := Image.gz
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6895
 
