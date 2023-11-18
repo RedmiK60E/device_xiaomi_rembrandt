@@ -71,6 +71,8 @@ TARGET_NO_BOOTLOADER := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
+    vendor/kscope/target/config/vintf/device_framework_matrix.xml
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
