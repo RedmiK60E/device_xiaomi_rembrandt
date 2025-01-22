@@ -32,11 +32,11 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    FrameworksResOverlayRubens \
-    SettingsProviderOverlayRubens \
-    SettingsResOverlayRubens \
-    SystemUIOverlayRubens \
-    WifiResOverlayRubens
+    FrameworksResOverlayRembrandt \
+    SettingsProviderOverlayRembrandt \
+    SettingsResOverlayRembrandt \
+    SystemUIOverlayRembrandt \
+    WifiResOverlayRembrandt
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
