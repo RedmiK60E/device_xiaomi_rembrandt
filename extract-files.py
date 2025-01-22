@@ -45,7 +45,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'rubens',
+    'rembrandt',
     'xiaomi',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
