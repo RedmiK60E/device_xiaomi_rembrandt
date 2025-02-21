@@ -25,12 +25,12 @@ It was released in March 2022.
 ## Patches
 
 ### Telephony
-> https://gerrit.pixelexperience.org/c/frameworks_opt_telephony/+/15476
+> https://github.com/PixelExperience/frameworks_opt_telephony/commit/538afb21007e0497bde131b1ef327fb93ee37031
 
 ### Ims
-> https://gerrit.pixelexperience.org/c/frameworks_opt_net_ims/+/15318
+> https://github.com/PixelExperience/frameworks_opt_net_ims/commit/ddacb4ba5ec943a410bb74ea31ea7b32003ce708
 
-> https://gerrit.pixelexperience.org/c/frameworks_opt_net_ims/+/15317
+> https://github.com/PixelExperience/frameworks_opt_net_ims/commit/9de68f4da30fc61d95bdbdfbd400f8080ea00cec
 
 ## Building
 
