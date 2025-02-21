@@ -1,16 +1,16 @@
-Copyright (C) 2022 The LineageOS Project
-# Device tree for Redmi K50 (rembrandt) - Prebuilt
+Copyright (C) 2025 The LineageOS Project
+# Device tree for Redmi K60E (rembrandt) - Prebuilt
 
-The Redmi K50 (codenamed _"rembrandt"_) is a high-end, mid-range smartphone from Xiaomi.
+The Redmi K60E (codenamed _"rembrandt"_) is a high-end, mid-range smartphone from Xiaomi.
 
-It was released in March 2022.
+It was released in December 2022.
 
 ## Device Specifications
 
 |                   Basic | Spec Sheet                                              |
 | ----------------------: | :------------------------------------------------------ |
-|                     CPU | Octa-core CPU with 4x Arm Cortex-A78 up to 2.85GHz      |
-|                 Chipset | Mediatek Dimensity 8100                                 |
+|                     CPU | Octa-core CPU with 4x Arm Cortex-A78 up to 3.1GHz      |
+|                 Chipset | Mediatek Dimensity 8200                                 |
 |                     GPU | Mali-G610 MC6                                           |
 |                  Memory | 8/12 GB RAM (LPDDR5 6400Mbps)                           |
 | Shipped Android Version | 12 with MIUI 13                                         |
@@ -20,7 +20,7 @@ It was released in March 2022.
 |                  Camere | 48MP(Primary) 8MP(Ultra-wide) 2MP(Telephoto-macro)      |
 
 ## Device Picture
-![Redmi K50](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1653381863.47942179.png)
+![Redmi K60E](https://github.com/RembrandtProject/.github/blob/main/profile/RedmiK60E.png)
 
 ## Patches
 
