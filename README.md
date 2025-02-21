@@ -1,7 +1,7 @@
 Copyright (C) 2022 The LineageOS Project
-# Device tree for Redmi K50 (rubens) - Prebuilt
+# Device tree for Redmi K50 (rembrandt) - Prebuilt
 
-The Redmi K50 (codenamed _"rubens"_) is a high-end, mid-range smartphone from Xiaomi.
+The Redmi K50 (codenamed _"rembrandt"_) is a high-end, mid-range smartphone from Xiaomi.
 
 It was released in March 2022.
 
@@ -35,24 +35,24 @@ It was released in March 2022.
 ## Building
 
 ### Complete zip
-> Needed: [device/xiaomi/rubens](https://github.com/YuKongA/device_xiaomi_rubens-prebuilt); [vendor/xiaomi/rubens](https://github.com/YuKongA/vendor_xiaomi_rubens-prebuilt); [kernel/xiaomi/mt6895](https://github.com/wbs306/kernel_xiaomi_mt6895)
+> Needed: [device/xiaomi/rembrandt](https://github.com/RedmiK60E/device_xiaomi_rembrandt); [vendor/xiaomi/rembrandt](https://github.com/YuKongA/vendor_xiaomi_rembrandt-prebuilt); [kernel/xiaomi/rembrandt](https://github.com/RedmiK60E/kernel_xiaomi_rembrandt)
 
-> Added by yourself: device/xiaomi/rubens/prebuilts/<b>vendor.img</b>; device/xiaomi/rubens/prebuilts/<b>odm.img</b>; vendor/xiaomi/rubens/proprietary/priv-app/MiuiCamera/<b>MiuiCamera.apk</b>(This file is larger than 100 MB, or you can clone it with Git LFS)
+> Added by yourself: device/xiaomi/rembrandt/prebuilts/<b>vendor.img</b>; device/xiaomi/rembrandt/prebuilts/<b>odm.img</b>; vendor/xiaomi/rembrandt/proprietary/priv-app/MiuiCamera/<b>MiuiCamera.apk</b>(This file is larger than 100 MB, or you can clone it with Git LFS)
 
 > Patch: [Patches Needed](#Patches)
 
-> lunch lineage_rubens-userdebug
+> lunch lineage_rembrandt-userdebug
 
 > mka bacon
 
 ### DSU sideloader
-> Needed: [device/xiaomi/rubens](https://github.com/YuKongA/device_xiaomi_rubens-prebuilt); [vendor/xiaomi/rubens](https://github.com/YuKongA/vendor_xiaomi_rubens-prebuilt); [kernel/xiaomi/mt6895](https://github.com/wbs306/kernel_xiaomi_mt6895)
+> Needed: [device/xiaomi/rembrandt](https://github.com/RedmiK60E/device_xiaomi_rembrandt); [vendor/xiaomi/rembrandt](https://github.com/YuKongA/vendor_xiaomi_rembrandt-prebuilt); [kernel/xiaomi/rembrandt](https://github.com/RedmiK60E/kernel_xiaomi_rembrandt)
 
-> Added by yourself: vendor/xiaomi/rubens/proprietary/priv-app/MiuiCamera/<b>MiuiCamera.apk</b>(This file is larger than 100 MB, or you can clone it with Git LFS)
+> Added by yourself: vendor/xiaomi/rembrandt/proprietary/priv-app/MiuiCamera/<b>MiuiCamera.apk</b>(This file is larger than 100 MB, or you can clone it with Git LFS)
 
-> Patch: [Patches Needed](#Patches), [Drop import prebuilt vendor/odm image](https://github.com/YuKongA/device_xiaomi_rubens-prebuilt/commit/96060cfb8e85fa1a1e6728c68d08b36db233fa5d)
+> Patch: [Patches Needed](#Patches), [Drop import prebuilt vendor/odm image](https://github.com/RedmiK60E/device_xiaomi_rembrandt/commit/96060cfb8e85fa1a1e6728c68d08b36db233fa5d)
 
-> lunch lineage_rubens-userdebug
+> lunch lineage_rembrandt-userdebug
 
 > mka systemimage && mka productimage && cd $OUT && zip dsu.zip system.img product.img
 

@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := xiaomi
-DEVICE_PATH := device/xiaomi/rubens
+DEVICE_PATH := device/xiaomi/rembrandt
 
 # Build Hack
 BUILD_BROKEN_DUP_RULES := true
@@ -52,7 +52,7 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := rubens
+TARGET_BOOTLOADER_BOARD_NAME := rembrandt
 TARGET_NO_BOOTLOADER := true
 TARGET_USES_UEFI := true
 
@@ -63,8 +63,8 @@ TARGET_ENABLE_MEDIADRM_64 := true
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rubens
-TARGET_RECOVERY_DEVICE_MODULES := libinit_rubens
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rembrandt
+TARGET_RECOVERY_DEVICE_MODULES := libinit_rembrandt
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
@@ -75,8 +75,8 @@ BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilts/kernel
 
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/mt6895
-TARGET_KERNEL_CONFIG := mikrn_rubens_stability_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/rembrandt
+TARGET_KERNEL_CONFIG := mikrn_rembrandt_stability_defconfig
 
 BOARD_BOOT_HEADER_VERSION := 4
 BOARD_KERNEL_IMAGE_NAME := Image.lz4
@@ -156,7 +156,7 @@ BOARD_EXCLUDE_KERNEL_FROM_RECOVERY_IMAGE :=
 BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := false
 
 # Security patch level
-VENDOR_SECURITY_PATCH := 2021-12-05
+VENDOR_SECURITY_PATCH := 2023-02-01
 
 # Sepolicy
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/private
