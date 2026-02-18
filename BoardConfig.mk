@@ -5,7 +5,7 @@
 #
 
 BOARD_VENDOR := xiaomi
-DEVICE_PATH := device/xiaomi/rubens
+DEVICE_PATH := device/xiaomi/rembrandt
 
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
@@ -51,15 +51,15 @@ BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := rubens
+TARGET_BOOTLOADER_BOARD_NAME := rembrandt
 TARGET_NO_BOOTLOADER := true
 
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rubens
-TARGET_RECOVERY_DEVICE_MODULES := libinit_rubens
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_rembrandt
+TARGET_RECOVERY_DEVICE_MODULES := libinit_rembrandt
 
 # Kernel
 TARGET_KERNEL_ARCH := arm64
@@ -89,8 +89,8 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_TAGS_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/xiaomi/rubens
-TARGET_KERNEL_CONFIG := mikrn_rubens_stability_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/rembrandt
+TARGET_KERNEL_CONFIG := lineageos_rembrandt_defconfig
 
 # Kernel - Prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

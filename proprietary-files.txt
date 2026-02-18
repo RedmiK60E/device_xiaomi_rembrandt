@@ -1,4 +1,4 @@
-# Unpinned blobs from rubens-user 12 SP1A.210812.016 V13.0.24.0.SLNCNXM release-keys
+# Unpinned blobs from rembrandt-user 12 SP1A.210812.016 V13.0.5.0.SMMCNXM release-keys
 
 # ADSP modules
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
@@ -79,12 +79,10 @@ vendor/lib/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libswdap.so
 vendor/lib/soundfx/libswgamedap.so
-vendor/lib/soundfx/libswvqe.so
 vendor/lib64/soundfx/libaudiopreprocessing_mtk.so
 vendor/lib64/soundfx/libmisoundfx.so
 vendor/lib64/soundfx/libswdap.so
 vendor/lib64/soundfx/libswgamedap.so
-vendor/lib64/soundfx/libswvqe.so
 
 # Audio param
 vendor/etc/audio_param/AudioParamOptions_mgvi.xml
@@ -301,16 +299,14 @@ vendor/lib/mt6895/libvcodec_utility.so
 vendor/lib/mt6895/libvcodecdrv.so
 vendor/lib/mt6895/mtk000_mipi_raw_IdxMgr.so
 vendor/lib/mt6895/mtk000_mipi_raw_tuning.so
-vendor/lib/mt6895/rubensgc02m1_mipi_raw_IdxMgr.so
-vendor/lib/mt6895/rubensgc02m1_mipi_raw_tuning.so
-vendor/lib/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
-vendor/lib/mt6895/rubensimx582_mipi_raw_2_tuning.so
-vendor/lib/mt6895/rubensimx582_mipi_raw_IdxMgr.so
-vendor/lib/mt6895/rubensimx582_mipi_raw_tuning.so
-vendor/lib/mt6895/rubensimx596_mipi_raw_IdxMgr.so
-vendor/lib/mt6895/rubensimx596_mipi_raw_tuning.so
-vendor/lib/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
-vendor/lib/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/lib/mt6895/rembrandtgc02m1_mipi_raw_IdxMgr.so
+vendor/lib/mt6895/rembrandtgc02m1_mipi_raw_tuning.so
+vendor/lib/mt6895/rembrandtimx582_mipi_raw_IdxMgr.so
+vendor/lib/mt6895/rembrandtimx582_mipi_raw_tuning.so
+vendor/lib/mt6895/rembrandtimx596_mipi_raw_IdxMgr.so
+vendor/lib/mt6895/rembrandtimx596_mipi_raw_tuning.so
+vendor/lib/mt6895/rembrandts5k4h7_mipi_raw_IdxMgr.so
+vendor/lib/mt6895/rembrandts5k4h7_mipi_raw_tuning.so
 vendor/lib/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -326,10 +322,7 @@ vendor/lib64/libAITrackingAFMgr.so
 vendor/lib64/libBasicModule.so
 vendor/lib64/libJpgEncPipe.so
 vendor/lib64/libOpenCL.so
-vendor/lib64/libanc_dc_plugin_xiaomi_v2.so
 vendor/lib64/libarcsoft_high_dynamic_range_v5.so
-vendor/lib64/libwa_rtdof.so
-vendor/lib64/libwa_rtrefocus.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libaaa_gma.so
 vendor/lib64/libaedv.so
@@ -375,7 +368,6 @@ vendor/lib64/libmiStereoFactoryRemapLib.so
 vendor/lib64/libmialgo_rfs.so
 vendor/lib64/libmialgo_sd.so
 vendor/lib64/libmialgo_utils.so
-vendor/lib64/libmibokeh_845_video.so
 vendor/lib64/libmibokeh_mt6873.so
 vendor/lib64/libmpbase.so
 vendor/lib64/libmtkcam_3rdcalibration.so
@@ -675,16 +667,14 @@ vendor/lib64/mt6895/libstereoinfoaccessor_vsdof.so
 vendor/lib64/mt6895/libvainr_model.so
 vendor/lib64/mt6895/mtk000_mipi_raw_IdxMgr.so
 vendor/lib64/mt6895/mtk000_mipi_raw_tuning.so
-vendor/lib64/mt6895/rubensgc02m1_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/rubensgc02m1_mipi_raw_tuning.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_2_IdxMgr.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_2_tuning.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/rubensimx582_mipi_raw_tuning.so
-vendor/lib64/mt6895/rubensimx596_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/rubensimx596_mipi_raw_tuning.so
-vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_IdxMgr.so
-vendor/lib64/mt6895/rubenss5k4h7_mipi_raw_tuning.so
+vendor/lib64/mt6895/rembrandtgc02m1_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rembrandtgc02m1_mipi_raw_tuning.so
+vendor/lib64/mt6895/rembrandtimx582_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rembrandtimx582_mipi_raw_tuning.so
+vendor/lib64/mt6895/rembrandtimx596_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rembrandtimx596_mipi_raw_tuning.so
+vendor/lib64/mt6895/rembrandts5k4h7_mipi_raw_IdxMgr.so
+vendor/lib64/mt6895/rembrandts5k4h7_mipi_raw_tuning.so
 vendor/lib64/vendor.mediatek.hardware.camera.atms@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.bgservice@1.1.so
@@ -697,8 +687,6 @@ vendor/lib64/vendor.mediatek.hardware.camera.postproc@1.0.so
 vendor/lib64/vendor.mediatek.hardware.camera.security@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mmagent@1.0.so
 vendor/lib64/vendor.mediatek.hardware.pq@2.0.so
-vendor/lib64/libwa_depth.so
-vendor/lib64/libwa_refocus.so
 
 # Camera configs
 vendor/etc/camera/102_SummerDay.png
@@ -721,29 +709,36 @@ vendor/etc/camera/125_Latin.png
 vendor/etc/camera/126_Fantasy2.png
 vendor/etc/camera/127_Creamy.png
 vendor/etc/camera/128_Sepia.png
+vendor/etc/camera/ai_scene.bin
+vendor/etc/camera/aivsModels1
+vendor/etc/camera/aivsParams
+vendor/etc/camera/aivsParams2
+vendor/etc/camera/almalence_sr_params_tele.config
+vendor/etc/camera/almalence_sr_params_UW_upscale.config
+vendor/etc/camera/almalence_sr_params_wide.config
+vendor/etc/camera/anc.bin
+vendor/etc/camera/bokehParams.json
+vendor/etc/camera/CameraCPUControl.xml
 vendor/etc/camera/CFR_para_HD.bin
 vendor/etc/camera/CFR_para_M.bin
 vendor/etc/camera/CFR_para_T.bin
 vendor/etc/camera/CFR_para_UW.bin
 vendor/etc/camera/CFR_para_W.bin
-vendor/etc/camera/ai_scene.bin
-vendor/etc/camera/almalence_sr_params_UW_upscale.config
-vendor/etc/camera/almalence_sr_params_tele.config
-vendor/etc/camera/almalence_sr_params_wide.config
-vendor/etc/camera/anc.bin
-vendor/etc/camera/apu_miai_preview.bin
+vendor/etc/camera/com.xiaomi.dcal.wu.golden
 vendor/etc/camera/deblur_sd_opencl_binary.bin
 vendor/etc/camera/deblur_sd_opencl_params.bin
 vendor/etc/camera/deblur_txt_apu.bin
+vendor/etc/camera/dualcam_bokeh_params.json
+vendor/etc/camera/fold_qianzhi_512_edutpu140_ar36912_depth128_dd48_2_128_inscale_q12qrqfct_rotate45_scale_distortcolor_quantaware_step205420_without_softmax_mdla30.dla
 vendor/etc/camera/ldc/intsense_config_undistort.bin
 vendor/etc/camera/ldc/ldc_cap_cache
 vendor/etc/camera/ldc/ldc_cap_model
 vendor/etc/camera/ldc/ldc_cap_policy
 vendor/etc/camera/miai_psn_config.yaml
-vendor/etc/camera/mibokeh_mt6873_opencl.bin
-vendor/etc/camera/mibokeh_mt6873_parameter.bin
-vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_bs1_1285.dla
+vendor/etc/camera/preview_bokeh_params.json
+vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_mdla30.dla
 vendor/etc/camera/sceneDetection.xml
+vendor/etc/camera/skyseg_384_without_softmax_mdla30.dla
 vendor/etc/camera/sr_params.xml
 vendor/etc/camera/svq_cache
 vendor/etc/camera/video_bokeh_apu_front_20210413.bin
@@ -760,16 +755,6 @@ vendor/etc/camera/xiaomi/superhdsnapshot.json
 vendor/etc/camera/xiaomi/superlowlightsnapshot.json
 vendor/etc/camera/xiaomi/thirdpartysnapshot.json
 vendor/etc/camera/xiaomi/uwsuperlowlightshot.json
-vendor/etc/camera/com.xiaomi.dcal.wu.golden
-vendor/etc/camera/jiiganmodel/com.xiaomi_l11_mecp.bin
-vendor/etc/camera/jiiganmodel/com.xiaomi_l11_mecp_for_nocali.bin
-vendor/etc/camera/jiiganmodel/com.xiaomi_l11_mecp_hwdepth_bokeh.bin
-vendor/etc/camera/jiiganmodel/dof_model/capture_cache
-vendor/etc/camera/jiiganmodel/dof_model/capture_model
-vendor/etc/camera/jiiganmodel/dof_model/capture_policy
-vendor/etc/camera/jiiganmodel/rt_model/preview_cache
-vendor/etc/camera/jiiganmodel/rt_model/preview_model
-vendor/etc/camera/jiiganmodel/rt_model/preview_policy
 
 # Camera parameter database
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/ae/mt6895/ParameterDB_ae.db
@@ -810,16 +795,14 @@ vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/imx766dual_mipi_raw/mt68
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/mt6895/ISP_info.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6895/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/ov48b_mipi_raw/mt6895/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensgc02m1_mipi_raw/mt6895/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw/mt6895/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx582_mipi_raw_2/mt6895/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubensimx596_mipi_raw/mt6895/ISP_param.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_mapping.db
-vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rubenss5k4h7_mipi_raw/mt6895/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtgc02m1_mipi_raw/mt6895/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtgc02m1_mipi_raw/mt6895/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx582_mipi_raw/mt6895/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx582_mipi_raw/mt6895/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx596_mipi_raw/mt6895/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandtimx596_mipi_raw/mt6895/ISP_param.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandts5k4h7_mipi_raw/mt6895/ISP_mapping.db
+vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/rembrandts5k4h7_mipi_raw/mt6895/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6895/ISP_mapping.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3m5sx_mipi_raw/mt6895/ISP_param.db
 vendor/bin/crossbuild/DataSet/SQLiteModule/db/tuning_DB/s5k3p9sp_mipi_raw/mt6895/ISP_mapping.db
@@ -970,8 +953,8 @@ vendor/lib64/vendor.xiaomi.hardware.displayfeature@1.0.so
 
 # Display config
 vendor/etc/cust_silky_brightness.xml
-vendor/etc/dsi_l11a_38_0a_0a_dsc_cmd_mi.xml
-vendor/etc/init/rubens_display.rc
+vendor/etc/dsi_m11r_38_0a_0a_dsc_cmd_mi.xml
+vendor/etc/init/rembrandt_display.rc
 
 # Display - miLut
 vendor/etc/miLutInfo.txt
@@ -998,7 +981,7 @@ vendor/etc/miLut_8.txt
 vendor/etc/miLut_9.txt
 
 # Display firmware
-vendor/firmware/st_fts_L11a.ftb
+vendor/firmware/st_fts_M11r.ftb
 
 # Dolby
 lib/vendor.dolby.hardware.dms@2.0.so
@@ -2583,7 +2566,6 @@ vendor/thh/ta/14498ace2a8f11e880c8509a4c146f4c.ta
 vendor/thh/ta/3d08821c33a611e6a1fa089e01c83aa2.ta
 vendor/thh/ta/40188311faf343488db888ad39496f9a.ta
 vendor/thh/ta/655a4b46cd7711eaaafbf382a6988e7b.ta
-vendor/thh/ta/7778c03fc30c4dd0a319ea29643d4d4b.ta
 vendor/thh/ta/86f623f6a2994dfdb560ffd3e5a62c29.ta
 vendor/thh/ta/8888c03fc30c4dd0a319ea29643d4d4b.ta
 vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta

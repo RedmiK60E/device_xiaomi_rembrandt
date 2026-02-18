@@ -201,9 +201,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-fpc.kl \
     $(LOCAL_PATH)/configs/keylayout/uinput-goodix.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/uinput-goodix.kl
 
+# Kernel Modules
+PREBUILT_KERNEL_MODULES := true
+
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.xiaomi_mt6895
+    android.hardware.lights-service.xiaomi_rembrandt
 
 # Local time
 PRODUCT_PACKAGES += \
@@ -426,4 +429,4 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/rubens/rubens-vendor.mk)
+$(call inherit-product, vendor/xiaomi/rembrandt/rembrandt-vendor.mk)

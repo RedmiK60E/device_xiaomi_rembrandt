@@ -6,7 +6,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),rubens)
+ifeq ($(TARGET_DEVICE),rembrandt)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
@@ -26,12 +26,12 @@ $(MDOTA_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(MDOTA_SYMLINK)
 
-RUBENS_SYMLINK := $(addprefix $(TARGET_OUT_VENDOR)/, $(strip $(shell cat $(DEVICE_PATH)/symlink/rubens.txt)))
-$(RUBENS_SYMLINK): $(LOCAL_INSTALLED_MODULE)
+REMBRANDT_SYMLINK := $(addprefix $(TARGET_OUT_VENDOR)/, $(strip $(shell cat $(DEVICE_PATH)/symlink/rembrandt.txt)))
+$(REMBRANDT_SYMLINK): $(LOCAL_INSTALLED_MODULE)
 	@mkdir -p $(dir $@)
 	$(hide) ln -sf mt6895/$(notdir $@) $@
 
-ALL_DEFAULT_INSTALLED_MODULES += $(RUBENS_SYMLINK)
+ALL_DEFAULT_INSTALLED_MODULES += $(REMBRANDT_SYMLINK)
 
 MT6895_SYMLINK := $(addprefix $(TARGET_OUT_VENDOR)/, $(strip $(shell cat $(DEVICE_PATH)/symlink/mt6895.txt)))
 $(MT6895_SYMLINK): $(LOCAL_INSTALLED_MODULE)

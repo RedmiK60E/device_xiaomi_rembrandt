@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=rubens
+DEVICE=rembrandt
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -32,7 +32,7 @@ write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 
-printf "\n%s\n" "ifeq (\$(TARGET_FORCE_PREBUILT_KERNEL),true)" >> "${PRODUCTMK}"
+printf "\n%s\n" "ifeq (\$(PREBUILT_KERNEL_MODULES),true)" >> "${PRODUCTMK}"
 write_makefiles "${MY_DIR}/proprietary-files-modules.txt" true
 echo "endif" >> "${PRODUCTMK}"
 
